@@ -5,6 +5,27 @@ In **bold** we denoted the expected generated text by the model.
 
 ## Answer Selection for Question Generation
 
+### Prerequisites: Labeling Models
+
+#### QGen
+> Generate a question based on the context and the answer.
+>
+> Context: {{Context}}
+>
+> Answer: {{Answer}}
+>
+> Question: **{{Generated question}}**
+
+#### QAns
+> Answer the following question based on the context.
+>
+> Context: {{Context}}
+>
+> Question: {{Question}}
+>
+> Answer: **{{Generated answer}}**
+
+
 ### Feedback-Aware Model
 > Iteratively select a span from the following text that would serve as a
 good answer for generating a question.
